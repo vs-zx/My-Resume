@@ -1,0 +1,87 @@
+<view class="container">
+	<image class="background" src="../../img/1.jpg"></image>
+	<view class="theme">Intorduction & Experience</view>
+  <!-- 个人情况 -->
+	<view class="wrap bg1">
+		<view class="title">
+			<text class="title-text">个人信息</text>
+			<view class="line"></view>
+		</view>
+		<view class="row">
+			<text class="info">姓名：张鑫</text>
+			<text class="info">性别：男</text>
+		</view>
+    <view class="row">
+			<text class="info">年龄：24</text>
+			<text class="info">工作年限：1year</text>
+		</view>
+		<view class="row">
+			<text class="info">电话：15173189227</text>
+		</view>
+		<view class="row">
+			<text class="info">email：15173189227@qq.com</text>
+		</view>
+	</view>
+	<!-- 教育背景 -->
+	<view class="wrap bg2">
+		<view class="title">
+			<text class="title-text">教育经历</text>
+			<view class="line"></view>
+		</view>
+		<view class="row">
+			<text class="info">2014.09 - 2018.06</text>
+		</view>
+    <view class="row">
+			<text class="info">学校：中国矿业大学 -- (本科211)</text>
+		</view>
+		<view class="row">
+			<text class="info">专业：热能与动力工程（后 自学 前端）</text>
+		</view>
+	</view>
+	<!-- 工作经历 -->
+	<view class="wrap bg2">
+		<view class="title">
+			<text class="title-text">工作经历</text>
+			<view class="line"></view>
+		</view>
+		<view class="row">
+			<text class="info">2019.10 - 2020.05</text>
+		</view>
+    <view class="row">
+			<text class="info">公司：长沙木创科技有限公司</text>
+		</view>
+		<view class="row">
+			<text class="info">职责：1 根据psd图使用css+div构建页面布局，使用JS、ES6完成逻辑交互。\n2 配合后端开发，对接接口，调试数据。\n3 维护页面，优化功能。</text>
+		</view>
+	</view>
+	<!-- 兴趣爱好 -->
+	<view class="wrap bg2">
+		<view class="title">
+			<text class="title-text">兴趣爱好</text>
+			<view class="line"></view>
+		</view>
+		<view class="row">
+			<text class="info">· 音乐：古风、轻音乐</text>
+		</view>
+    <view class="row">
+			<text class="info">· 运动：自行车、K歌、羽毛球</text>
+		</view>
+		<view class="row">
+			<text class="info">· 看书、看动漫</text>
+		</view>
+	</view>
+	<!-- 自我评价 -->
+	<view class="wrap bg2">
+		<view class="title">
+			<text class="title-text">自我评价</text>
+			<view class="line"></view>
+		</view>
+		<view class="row">
+			<text class="info">工作认真、细心、稳重。\n乐于学习、钻研新技术。\n性格安静、积极、乐观。</text>
+		</view>
+   
+	</view>
+	<!-- 返回 -->
+	<view class="goBack" bind:tap="goBack">返回主页</view>
+
+</view>

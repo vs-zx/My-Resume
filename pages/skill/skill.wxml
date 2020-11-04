@@ -1,0 +1,64 @@
+<view class="container">
+	<image class="background" src="../../img/5.jpg"></image>
+	<view class="theme">技能 My - Skill</view>
+
+	<view class="wrap skill">
+		<!-- 主要技能 -->
+		<view class="title">
+			<text class="title-text">主要技能</text>
+			<view class="line"></view>
+		</view>
+		<view class="row">
+			<text class="info">· HTML(5)/CSS(3)</text>
+			<text class="info">熟悉</text>
+		</view>
+		<view class="row">
+			<text class="info">· JavaScript</text>
+			<text class="info">熟悉</text>
+		</view>
+		<view class="row">
+			<text class="info">· ES6+</text>
+			<text class="info">熟悉</text>
+		</view>
+		<view class="row">
+			<text class="info">· Vue 全家桶</text>
+			<text class="info">熟悉</text>
+		</view>
+			<view class="row">
+			<text class="info">· sass</text>
+			<text class="info">熟悉</text>
+		</view>
+		<view class="row">
+			<text class="info">· webpack</text>
+			<text class="info">了解</text>
+		</view>
+		<view class="row">
+			<text class="info">· nodejs与koa2</text>
+			<text class="info">了解</text>
+		</view>
+		<view class="row">
+			<text class="info">· MongoDB数据库</text>
+			<text class="info">了解</text>
+		</view>
+		<!-- 其它 -->
+		<view class="title">
+			<text class="title-text">其它</text>
+			<view class="line"></view>
+		</view>
+	
+		<view class="row">
+			<text class="info">· 小程序</text>
+			<text class="info">了解</text>
+		</view>
+		<view class="row">
+			<text class="info">· echarts</text>
+			<text class="info">了解</text>
+		</view>
+		<view class="row">
+			<text class="info">· jquery</text>
+			<text class="info">了解</text>
+		</view>
+	</view>
+<!-- 返回 -->
+	<view class="goBack" bind:tap="goBack">点击返回</view>
+</view>

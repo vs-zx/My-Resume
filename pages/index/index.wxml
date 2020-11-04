@@ -1,0 +1,30 @@
+<!--index.wxml-->
+<view class="container">
+	<image class="background" src="../../img/4.jpg"></image>
+	<!-- 欢迎卡 -->
+	<view class="box welcome">
+		<image class="avatar" src="../../img/avatar.jpg"></image>
+		<view class="desc">
+			<view class="welcome-text1">您好！欢迎来到~</view>
+			<view class="welcome-text2">张鑫的简历</view>
+		</view>
+	</view>
+	<!-- 个人信息-->
+	<view class="box personal" bind:tap="toPersonalPage" hover-class="changeStatus">
+		<view class="title">个人信息</view>
+		<view class="prompt-text">点击进入...</view>
+		<view class="prompt"></view>
+	</view>
+	<!-- 我的技能 -->
+	<view class="box skill" bind:tap="toSkillPage" hover-class="changeStatus">
+		<view class="title">我的技能</view>
+		<view class="prompt-text">点击进入...</view>
+		<view class="prompt"></view>
+	</view>
+	<!-- 我的项目卡 -->
+	<view class="box project" bind:tap="toProjectPage" hover-class="changeStatus" s>
+		<view class="title">我的项目</view>
+		<view class="prompt-text">点击进入...</view>
+		<view class="prompt"></view>
+	</view>
+</view>

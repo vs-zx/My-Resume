@@ -1,0 +1,102 @@
+<view class="container">
+	<image class="background" src="../../img/3.jpg"></image>
+	<view class="theme">项目 My - Project</view>
+	<!-- 项目轮播 -->
+	<swiper class="outer-swiper" indicator-dots="{{true}}" indicator-active-color="#99ccff">
+		<swiper-item>
+			<view class="wrap">
+				<view class="title">小米官网首页(PC)</view>
+				<view class="effect"> --> 项目效果：可上下滑动查看</view>
+				<swiper class="inner-swiper" vertical="{{true}}">
+					<swiper-item>
+						<image src="../../img/item/xiaomi-1.png"></image>
+					</swiper-item>
+					<swiper-item>
+						<image src="../../img/item/xiaomi-0.png"></image>
+					</swiper-item>
+					<swiper-item>
+						<image src="../../img/item/xiaomi-2.png"></image>
+					</swiper-item>
+					<swiper-item>
+						<image src="../../img/item/xiaomi-3.png"></image>
+					</swiper-item>
+					<swiper-item>
+						<image src="../../img/item/xiaomi-4.png"></image>
+					</swiper-item>
+				</swiper>
+				<view class="skill">技术栈：VUE cli4 + axios + swiper </view>
+				<view class="detail">
+					<text>. 我的任务：1 定义模拟数据，操作数据分页。</text>
+					<text>. 2 在swiper组件的基础上，更改样式、配置。</text>
+					<text>. 3 封装广告展示组件、商品分类组件。设置倒计时。</text>
+					<text>. 4 使用webpack配置快捷路径、开发代理。</text>
+				</view>
+				<text class="address" user-select="{{true}}">Git地址：https://github.com/vs-zx/xiaomi
+				</text>
+			</view>
+		</swiper-item>
+		<swiper-item>
+			<view class="wrap">
+				<view class="title">留言板前后台交互</view>
+				<view class="effect">项目效果：可上下滑动查看</view>
+				<swiper class="inner-swiper" vertical="{{true}}">
+					<swiper-item>
+						<image src="../../img/item/comment1.png"></image>
+					</swiper-item>
+					<swiper-item>
+						<image src="../../img/item/comment2.png"></image>
+					</swiper-item>
+					<swiper-item>
+						<image src="../../img/item/comment3.png"></image>
+					</swiper-item>
+					<swiper-item>
+						<image src="../../img/item/comment4.png"></image>
+					</swiper-item>
+				</swiper>
+				<view class="skill">技术栈：vue + koa2 + mongodb</view>
+				<view class="detail">
+					<text>· 描述：练习项目，该项目实现了留言板的登录、注册，以及对留言的创建、删除、查询、更新。</text>
+					<text>· 我的任务：1 部分前端界面优化。</text>
+					<text>· 2 基于koa2框架编写后端路由接口。</text>
+					<text>· 3 使用mongoose连接数据库，定义Schema、Model。</text>
+					<text>· 4 配置前后端允许cookie跨域。</text>
+				</view>
+				<text class="address" user-select="{{true}}">Git地址：https://github.com/vs-zx/comment
+				</text>
+			</view>
+		</swiper-item>
+		<swiper-item>
+			<view class="wrap">
+				<view class="title">去哪儿网App</view>
+				<view class="effect">项目效果：可上下滑动查看</view>
+				<swiper class="inner-swiper" vertical="{{true}}">
+					<swiper-item>
+						<image src="../../img/item/qunaer-1.png"></image>
+					</swiper-item>
+					<swiper-item>
+						<image src="../../img/item/qunaer-2.png"></image>
+					</swiper-item>
+					<swiper-item>
+						<image src="../../img/item/qunaer-3.png"></image>
+					</swiper-item>
+					<swiper-item>
+						<image src="../../img/item/qunaer-4.png"></image>
+					</swiper-item>
+				</swiper>
+				<view class="skill">技术栈：VUE全家桶 cli2+ scroll-better</view>
+				<view class="detail">
+					<text>· 描述：根据当前城市，展示旅游信息</text>
+					<text>· 我的任务：1 配置首页、详情页的动态路由。</text>
+					<text>· 2 实现输入关键字做搜索城市功能。</text>
+					<text>· 3 用组件间传值、scroll-better做搜索页滚动。</text>
+					<text>· 4 利用vuex+localStorage存储当前城市状态。</text>
+					<text>· 5 封装图片预览组件。</text>
+				</view>
+				<text class="address" user-select="{{true}}">Git地址：https://github.com/vs-zx/qunaer
+				</text>
+			</view>
+		</swiper-item>
+	</swiper>
+
+	<view class="goBack" bind:tap="goBack">返回主页</view>
+</view>
